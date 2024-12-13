@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://indigo-rhapsody-backend-ten.vercel.app";
+const API_BASE_URL = "https://indigo-rhapsody-backend-sigma.vercel.app";
 
 // Get all categories
 export const GetVideoRequests = async () => {
