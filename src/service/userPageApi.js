@@ -1,7 +1,7 @@
 export const newUsersThisMonth = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/new-users-month`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/new-users-month`,
       {
         method: "GET",
         headers: {
@@ -24,7 +24,7 @@ export const newUsersThisMonth = async () => {
 export const mostActiveState = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/most-users-state`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/most-users-state`,
       {
         method: "GET",
         headers: {
@@ -48,7 +48,7 @@ export const mostActiveState = async () => {
 export const TotalUsers = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/total-count`,
       {
         method: "GET",
         headers: {
@@ -72,7 +72,7 @@ export const TotalUsers = async () => {
 export const getDataByStates = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/user-count-by-state`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/user-count-by-state`,
       {
         method: "GET",
         headers: {
@@ -96,7 +96,7 @@ export const getDataByStates = async () => {
 export const getAllUsers = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/getUser`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/getUser`,
       {
         method: "GET",
         headers: {
