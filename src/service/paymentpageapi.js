@@ -1,7 +1,7 @@
 export const GetPayment = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/payment/payments`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/payment/payments`,
       {
         method: "GET",
         headers: {
