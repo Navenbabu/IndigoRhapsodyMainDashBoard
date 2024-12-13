@@ -1,7 +1,7 @@
 export const GetDetailForDesigner = async (emailId, passWord) => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/adminLogin`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/adminLogin`,
       {
         method: "POST",
         headers: {
