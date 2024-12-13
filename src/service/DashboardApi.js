@@ -1,7 +1,7 @@
 export const TotalOrders = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/order/orders/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/order/orders/total-count`,
       {
         method: "GET",
         headers: {
@@ -24,7 +24,7 @@ export const TotalOrders = async () => {
 export const TotalDesigners = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/total-count`,
       {
         method: "GET",
         headers: {
@@ -47,7 +47,7 @@ export const TotalDesigners = async () => {
 export const TotalProducts = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/products/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/products/total-count`,
       {
         method: "GET",
         headers: {
@@ -70,7 +70,7 @@ export const TotalProducts = async () => {
 export const TotalUsers = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/user/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/user/total-count`,
       {
         method: "GET",
         headers: {
@@ -93,7 +93,7 @@ export const TotalUsers = async () => {
 export const TotalSales = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/order/total-sales`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/order/total-sales`,
       {
         method: "GET",
         headers: {
@@ -117,7 +117,7 @@ export const TotalSales = async () => {
 export const GraphData = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/order/daily-stats`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/order/daily-stats`,
       {
         method: "GET",
         headers: {
