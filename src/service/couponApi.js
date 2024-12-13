@@ -14,7 +14,7 @@ const apiRequest = async (url, options) => {
 };
 export const GetCoupons = async () => {
   return await apiRequest(
-    `https://indigo-rhapsody-backend-ten.vercel.app/coupon`,
+    `https://indigo-rhapsody-backend-sigma.vercel.app/coupon`,
     {
       method: "GET",
       headers: {
@@ -26,7 +26,7 @@ export const GetCoupons = async () => {
 
 export const DeleteCoupon = async (couponId) => {
   return await apiRequest(
-    `https://indigo-rhapsody-backend-ten.vercel.app/coupon/${couponId}`,
+    `https://indigo-rhapsody-backend-sigma.vercel.app/coupon/${couponId}`,
     {
       method: "DELETE",
       headers: {
@@ -38,7 +38,7 @@ export const DeleteCoupon = async (couponId) => {
 
 export const ApplyCoupon = async (couponId) => {
   return await apiRequest(
-    `https://indigo-rhapsody-backend-ten.vercel.app/coupon/apply/${couponId}`,
+    `https://indigo-rhapsody-backend-sigma.vercel.app/coupon/apply/${couponId}`,
     {
       method: "POST", // Use POST or PATCH for applying a coupon
       headers: {
