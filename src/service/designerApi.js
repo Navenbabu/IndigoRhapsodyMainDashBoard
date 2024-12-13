@@ -1,7 +1,7 @@
 export const Pending_account = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/pending-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/pending-count`,
       {
         method: "GET",
         headers: {
@@ -25,7 +25,7 @@ export const Pending_account = async () => {
 export const allDesigners = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/designers`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/designers`,
       {
         method: "GET",
         headers: {
@@ -49,7 +49,7 @@ export const allDesigners = async () => {
 export const Total_count = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/total-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/total-count`,
       {
         method: "GET",
         headers: {
@@ -72,7 +72,7 @@ export const Total_count = async () => {
 export const Approved_count = async () => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/approved-count`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/approved-count`,
       {
         method: "GET",
         headers: {
@@ -95,7 +95,7 @@ export const Approved_count = async () => {
 export const updateDesignerApprovalStatus = async (designerId, isApproved) => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/${designerId}/status`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/${designerId}/status`,
       {
         method: "PATCH",
         headers: {
@@ -120,7 +120,7 @@ export const updateDesignerApprovalStatus = async (designerId, isApproved) => {
 export const GetDetailForDesigner = async (designerId) => {
   try {
     const response = await fetch(
-      `https://indigo-rhapsody-backend-ten.vercel.app/designer/designers/${designerId}`,
+      `https://indigo-rhapsody-backend-sigma.vercel.app/designer/designers/${designerId}`,
       {
         method: "GET",
         headers: {
