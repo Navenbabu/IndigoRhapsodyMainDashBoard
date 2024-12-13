@@ -11,7 +11,7 @@ const NotificationPage = () => {
   const fetchNotifications = async () => {
     try {
       const response = await axios.get(
-        "https://indigo-rhapsody-backend-ten.vercel.app/notification/broadcast/all"
+        "https://indigo-rhapsody-backend-sigma.vercel.app/notification/broadcast/all"
       ); // Update with your API path
       setDataSource(response.data.data);
     } catch (error) {
@@ -33,7 +33,7 @@ const NotificationPage = () => {
     try {
       setLoading(true);
       const response = await axios.post(
-        "https://indigo-rhapsody-backend-ten.vercel.app/notification/send-notification-to-all",
+        "https://indigo-rhapsody-backend-sigma.vercel.app/notification/send-notification-to-all",
         {
           title: values.title,
           body: values.body,

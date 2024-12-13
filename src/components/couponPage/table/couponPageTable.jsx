@@ -73,7 +73,7 @@ function CouponPageTable() {
       };
 
       const response = await fetch(
-        `https://indigo-rhapsody-backend-ten.vercel.app/coupon/`,
+        `https://indigo-rhapsody-backend-sigma.vercel.app/coupon/`,
         {
           method: "POST",
           headers: {

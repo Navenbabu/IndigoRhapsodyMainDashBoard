@@ -7,7 +7,7 @@ import styled from "styled-components";
 async function loginUser(email, password) {
   try {
     const response = await fetch(
-      "https://indigo-rhapsody-backend-ten.vercel.app/user/adminLogin",
+      "https://indigo-rhapsody-backend-sigma.vercel.app/user/adminLogin",
       {
         method: "POST",
         headers: {
